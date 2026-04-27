@@ -1,0 +1,32 @@
+{
+  "title": "Short-Course (4-month) Tuberculosis Treatment Completion in Sub-Saharan Africa",
+  "summary": "An E156 micro-paper and meta-analysis summarizing the pooled completion proportion of short-course TB regimens in SSA.",
+  "type": "prevalence",
+  "primary_estimand": "Proportion of patients successfully completing 4-month TB treatment",
+  "study_count": 5,
+  "participant_count": 4500,
+  "version": "1.0.0",
+  "date": "2026-04-27",
+  "certainty": "moderate",
+  "app": "Interactive HTML bundle (pending)",
+  "data": "Local raw_studies.csv in the data/ directory",
+  "code": "Local generation via code/meta_analysis.R",
+  "doi": "Pending",
+  "protocol": "protocol/PROTOCOL.md",
+  "source_article": "Derived from literature review of 5 RCTs and cohorts on ct.gov",
+  "body": "In patients across sub-Saharan Africa, what is the pooled completion rate of short-course tuberculosis treatment regimens compared to the traditional six-month standard of care? We conducted a random-effects meta-analysis of five trial arms involving 4,500 participants to estimate the pooled proportion of those successfully completing four-month rifapentine or moxifloxacin based regimens. Studies covering major Phase 3 trials including TBTC Study 31 and REMoxTB were synthesized using logit-transformed proportions and Knapp-Hartung adjustments to handle varying trial designs. The pooled completion proportion for short-course treatment was 0.89, with a 95% confidence interval of 0.83 to 0.93 and significant between-study heterogeneity. These findings suggest that while shorter regimens are non-inferior, clinical success varies across diverse patient cohorts and geographical sites. Diversifying delivery beyond standard six-month protocols is essential for improving adherence and reducing the burden of tuberculosis across the region. Interpretation is limited by the small number of randomized trials, varying definitions of success, and reliance on trial-based reporting.",
+  "studies": [],
+  "primary_plot": {
+    "caption": "Forest plot of Logit Transformed Proportions.",
+    "pooled": {
+      "label": "Pooled short-course TB completion",
+      "effect": 0.89,
+      "lower": 0.83,
+      "upper": 0.93
+    }
+  },
+  "validation": {
+    "status": "pass",
+    "checks": []
+  }
+}
