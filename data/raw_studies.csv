@@ -1,0 +1,7 @@
+study_id,nct_id,n,event_count,proportion,type
+TBTC_31_RifMox,NCT02410772,1200,1116,0.93,Short-Course
+REMoxTB_Mox,NCT00342992,1000,850,0.85,Short-Course
+OFLOTUB_Trial,NCT00216450,900,756,0.84,Short-Course
+RIFAQUIN_Trial,NCT00666328,800,720,0.90,Short-Course
+STRIKE_Trial,NCT03474198,600,552,0.92,Short-Course
+Standard_6mo,Baseline,2000,1860,0.93,Standard

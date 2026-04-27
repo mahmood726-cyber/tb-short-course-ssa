@@ -1,0 +1,27 @@
+=== TB Short-Course Meta-Analysis Summary ===
+
+Random-Effects Model (k = 5; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc   
+ -2.1746    4.3492    8.3492    7.1218   20.3492   
+
+tau^2 (estimated amount of total heterogeneity): 0.1620 (SE = 0.1237)
+tau (square root of estimated tau^2 value):      0.4025
+I^2 (total heterogeneity / total variability):   93.29%
+H^2 (total variability / sampling variability):  14.89
+
+Test for Heterogeneity:
+Q(df = 4) = 61.3970, p-val < .0001
+
+Model Results:
+
+estimate      se     tval  df    pval   ci.lb   ci.ub      
+  2.1156  0.1863  11.3546   4  0.0003  1.5983  2.6329  *** 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+
+=== Back-transformed Pooled Estimate (Proportion) ===
+Pooled Proportion: 0.892 (95% CI: 0.832 - 0.933)
